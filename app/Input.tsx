@@ -3,7 +3,6 @@ import { StyleSheet, TextInput, View } from "react-native";
 
 const Input = () => {
   const [number, setNumber] = useState("");
-
   const handleChange = (value: any) => {
     const filteredValue = value.replace(/[^0-9]/g, "");
     setNumber(filteredValue);
@@ -14,12 +13,11 @@ const Input = () => {
       <TextInput
         style={styles.input}
         placeholder="Enter Amount..."
-        keyboardType="numeric" // Ensures numeric keyboard on mobile
-        maxLength={10} // Limits to 10 digits
+        keyboardType="numeric"
+        maxLength={10}
         value={`${number} ₹`}
         onChangeText={handleChange}
       />
-
     </View>
   );
 };

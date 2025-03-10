@@ -1,8 +1,8 @@
 import React from "react";
 import { Button, View } from "react-native";
-import Input from "./Input";
 import CircularButton from "./buttons/CircularButton";
 import Categories from "./Categories";
+import Input from "./Input";
 
 const Records = ({
   showCreateRecord,
@@ -36,11 +36,11 @@ const Records = ({
           />
           <View>
             <>
-              <Input />
+             <Input />
               <Button
                 title={` ${
                   selectedCategory
-                    ? ` ${selectedCategory.name}`
+                    ? `Cateogry: ${ selectedCategory.name}`
                     : "Select Category"
                 }`}
                 
