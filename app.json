@@ -43,8 +43,10 @@
         "origin": false
       },
       "eas": {
-        "projectId": "50ec79d3-9b49-4e2b-8c0e-878857d5a6a1"
+        "projectId": "50ec79d3-9b49-4e2b-8c0e-878857d5a6a1",
+        "clientSecret": "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"
       }
+      
     }
   }
 }
